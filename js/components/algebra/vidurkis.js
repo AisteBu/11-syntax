@@ -1,5 +1,5 @@
-import { dalyba } from './dalyba.js';
-import { suma } from './suma.js';
+import { dalyba } from './dalyba.js'
+import { suma } from './suma.js'
 
 function  vidurkis(list) {
     const skaiciuKiekis = list.length;
