@@ -1,11 +1,4 @@
-function vidurineRaide(text) {
-    if (text === '') {
-        return '';
-    }
-    const index = Math.ceil(text.length / 2 - 1);
-
-    return text[index];
-}
+const vidurineRaide = text => text === '' ? '': text [Math.ceil(text.length / 2 - 1)];
 
 export { vidurineRaide }
 
